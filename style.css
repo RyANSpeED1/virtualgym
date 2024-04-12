@@ -31,28 +31,26 @@
   
   .corner-image {
     position: absolute;
-    width: 50px; /* Adjust size as needed */
+    width: 100px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
+    border: 5px solid rgba(255, 255, 255, 0.5); /* Border with transparency */
+    border-radius: 20px; /* Rounded corners */
   }
   
   .top-left {
     top: 0;
     left: 0;
+    z-index: 3; /* Place image 1 on top */
   }
   
   .top-right {
     top: 0;
     right: 0;
+    z-index: 2; /* Place image 2 below image 1 */
   }
   
   .bottom-left {
     bottom: 0;
     left: 0;
-  }
-  
-  .btn-link {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 1; /* Place image 3 below image 1 and 2 */
   }
