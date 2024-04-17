@@ -24,25 +24,25 @@
   }
   
 .navbar {
-  font-family: "Arial", sans-serif; /* Set a comfortable font */
+  font-family: "Arial", sans-serif; 
 }
 
 .navbar-brand {
-  font-weight: bold; /* Make the navbar brand text bold */
+  font-weight: bold; 
 }
 
 .navbar-nav .nav-link {
-  font-size: 18px; /* Increase font size for navbar links */
+  font-size: 18px; 
 }
 
-/* Style for the images as a collage */
+
 .collage-container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .collage-image {
-  width: 150px; /* Adjust image size as needed */
+  width: 150px; 
   height: auto;
-  margin: 5px; /* Add some spacing between images */
+  margin: 5px; 
 }
