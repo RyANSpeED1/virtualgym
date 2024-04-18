@@ -47,7 +47,7 @@
   margin: 5px; 
 }
 .img-fluid {
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
 .mb-3 {
@@ -64,8 +64,11 @@
   font-size: 2.5rem;
   font-weight: 500;
 }
-
-
 .lead {
   font-size: 1.25rem;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: 500;
 }
