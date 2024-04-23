@@ -122,27 +122,14 @@ header {
   margin: 20px auto;
   padding: 0 20px;
 }
-.contact-button {
-  float: right;
-  margin-top: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
+.info-box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-.contact-button:hover {
-  background-color: #0056b3;
-}
-.names {
-  text-align: center;
-  margin-top: 50px;
-}
-.email-section {
-  margin-top: 20px;
-  text-align: center;
+h2, p {
+  font-size: 1.1em;
 }
 footer {
   background-color: #f4f4f4;
