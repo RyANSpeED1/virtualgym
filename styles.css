@@ -89,3 +89,12 @@
     height:230px;
     width: 420px;
  }
+ .container {
+    font-size: 1.4rem;
+ }
+ .lead {
+    font-size: 1.4rem;
+ }
+ .hero-content {
+    color: white;
+ }
