@@ -22,13 +22,12 @@
     color: #007bff;
 }
 
-/* Hero Section */
 .hero-section {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 100px); /* Adjusted height to exclude navbar */
+    height: calc(100vh - 100px); 
     background-image: url('img/ctg3.png');
     background-size: cover;
     background-position: center;
@@ -52,20 +51,18 @@
     margin-top: 20px;
 }
 
-/* Fade effect between navbar and footer */
 .hero-section::after {
     content: "";
     position: absolute;
-    top: calc(100px + 1rem); /* Height of navbar plus its padding */
+    top: calc(100px + 1rem); 
     left: 0;
     width: 100%;
-    height: calc(100% - (100px + 1rem + 20px)); /* Height of navbar plus padding plus footer padding */
-    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 0.5)); /* Adjust the opacity as needed */
+    height: calc(100% - (100px + 1rem + 20px));
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 0.5));
     z-index: 0;
     
 }
 
-/* Footer */
 .footer {
     background-color: #343a40;
     color: #fff;
@@ -74,13 +71,13 @@
     width: 100%;
     bottom: 0%;
 }
-/* Additional CSS Styling */
+
 .text-below-images p {
-    font-size: 1.5rem; /* Increase font size for content text */
+    font-size: 1.5rem; 
 }
 .text-below-images .img-fluid {
-    width: 100%; /* Ensure images fill the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 #content1 {
     font-size: 1.5rem; 
@@ -98,3 +95,5 @@
  .hero-content {
     color: white;
  }
+ 
+    
